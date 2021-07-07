@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
+* {
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app {
+  min-height: 100vh;
+  background-color: #1a1a1a;
+  color: #fff;
+  padding-top: 130px;
+  padding-bottom: 70px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.MuiBadge-colorSecondary {
+  color: #fff;
+  background-color: #f5bc00 !important;
+}
+@media (max-width: 700px) {
+  .app {
+    padding-top: 70px;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.MuiSvgIcon-root {
+  fill: #f5bc00 !important;
+}
+.pageTitle {
+  text-transform: uppercase;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2vw;
+  font-weight: 700;
+  padding: 4px;
+  border-radius: 50px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.poster {
+  border-radius: 0 !important;
+  max-height: 300px !important;
+}
+.MuiBadge-colorPrimary {
+  background: #f5bc00 !important;
+  color: #000 !important;
+  border-radius: 0 !important;
+}
+.MuiChip-colorPrimary {
+  color: #000 !important;
+  background-color: #f5bc00 !important;
+}
+.PrivateTabIndicator {
+  background-color: #f5bc00 !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.MuiPaginationItem-textPrimary.Mui-selected {
+  color: #000 !important;
+  font-weight: 700;
+  background-color: #f5bc00 !important;
+  border-radius: 0 !important;
+}
+.MuiButton-contained {
+  background-color: #f5bc00 !important;
+}
+.MuiInputBase-input {
+  background-color: #1a1a1a !important;
+  border: none !important;
+  outline: none !important;
+}
+.MuiPaginationItem-root {
+  font-weight: 700;
+}
+.MuiChip-deleteIconColorPrimary {
+  color: #000 !important;
+}
+.MuiChip-root {
+  background-color: #f5bc00 !important;
+}
+.MuiButtonBase-root,
+.MuiChip-root,
+.MuiChip-sizeSmall,
+.MuiChip-clickable .MuiSvgIcon-root {
+  fill: #000 !important;
+}
+
+@media (max-width: 1000px) {
+  .pageTitle {
+    font-size: 6.4vw;
   }
 }

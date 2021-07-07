@@ -1,0 +1,30 @@
+.header {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 20px;
+  cursor: pointer;
+  background-color: #1a1a1a;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  padding-bottom: 15px;
+  box-shadow: 0px 1px 5px #000;
+  color: #fff;
+  z-index: 100;
+}
+.logo {
+  background-color: #f5bc00;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #000;
+  margin-top: 15px;
+  padding: 0 10px;
+  box-shadow: -1px 1px 5px 9px #111111;
+}
+@media (max-width: 1000px) {
+  .header {
+    padding-top: 15px;
+    font-size: 20px;
+  }
+}
