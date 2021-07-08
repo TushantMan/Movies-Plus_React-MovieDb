@@ -10,8 +10,9 @@
   padding-bottom: 70px;
 }
 .MuiBadge-colorSecondary {
-  color: #fff;
+  color: #000 !important;
   background-color: #f5bc00 !important;
+  border-radius: 0% !important;
 }
 @media (max-width: 700px) {
   .app {
@@ -55,6 +56,10 @@
   font-weight: 700;
   background-color: #f5bc00 !important;
   border-radius: 0 !important;
+}
+span.MuiBadge-badge.MuiBadge-anchorOriginTopRightRectangle.MuiBadge-colorSecondary {
+  border-radius: 0;
+  color: #000;
 }
 .MuiButton-contained {
   background-color: #f5bc00 !important;
